@@ -38,6 +38,12 @@ body {
   overflow-x: hidden;
 }
 
+.myLogo {
+  width: 150px;
+  position: absolute;
+  bottom: 30px;
+  /* left: 50vw; */
+}
 .hero-section {
   height: 100vh;
 }
