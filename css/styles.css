@@ -42,7 +42,6 @@ body {
   width: 150px;
   position: absolute;
   bottom: 30px;
-  /* left: 50vw; */
 }
 .hero-section {
   height: 100vh;
@@ -66,16 +65,16 @@ body {
 
 .hero-section__logo {
   position: absolute;
-  left: 1vw;
+  left: 3vw;
   /* bottom: 35vh; */
   top: 50vh;
-  width: calc(var(--index) * 17);
+  width: calc(var(--index) * 15);
   z-index: -1;
 }
 
 .carousel {
   display: flex;
-  padding: calc(var(--index) * 5) 0;
+  padding: calc(var(--index) * 4) 0;
 }
 
 .carousel > * {
@@ -108,5 +107,12 @@ body {
 }
 
 .carousel__left {
-  margin-top: calc(var(--index) * 15);
+  margin-top: calc(var(--index) * 13);
+}
+
+.img__logo {
+  margin: 0 38vw 10vh;
+  transform: skewX(-11deg);
+  filter: invert(1);
+  width: 370px;
 }
